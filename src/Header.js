@@ -1,6 +1,6 @@
-// fazer a pasta das imagens
-
 export default function Header () {
+    const icons = ["paper-plane-outline", "compass-outline", "heart-outline", "person-outline"];
+
     return (
     <div class="topo">
         <div class="barra-topo">
@@ -13,10 +13,7 @@ export default function Header () {
                 <div><p>Pesquisar</p></div>
             </div>
             <div class="icones">
-                <div><ion-icon name="paper-plane-outline"></ion-icon></div>
-                <div><ion-icon name="compass-outline"></ion-icon></div>
-                <div><ion-icon name="heart-outline"></ion-icon></div>
-                <div><ion-icon name="person-outline"></ion-icon></div>
+                {icons.map(icon => <div><ion-icon name={icon} ></ion-icon></div>)}
             </div>
         </div>
     </div>
