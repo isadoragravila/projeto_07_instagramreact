@@ -47,8 +47,7 @@ body {
     margin-bottom: 7px;
 }
  .logo ion-icon {
-    height: 19.25px;
-    width: 19.25px;
+    font-size: 20px;
 }
 
 .busca {
@@ -75,7 +74,7 @@ body {
     align-items: center;
 }
 .icones ion-icon {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .barra-topo-mobile {
@@ -88,14 +87,14 @@ body {
     z-index: 1;
 }
 .icone-logo-mobile ion-icon {
-    font-size: 19.25px;
+    font-size: 20px;
 }
 .logo-mobile img {
     height: 29px;
     width: 103px;
 }
 .icone-mobile ion-icon {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .barra-debaixo-mobile {
@@ -108,7 +107,7 @@ body {
     z-index: 1;
 }
 .barra-debaixo-mobile ion-icon {
-    font-size: 19.25px;
+    font-size: 20px;
 }
 
 .corpo {
@@ -228,6 +227,7 @@ body {
 .imagem img {
     height: 612px;
     width: 612px;
+    cursor: pointer;
 }
 
 .post video {
@@ -241,9 +241,21 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .curtir ion-icon {
-    font-size: 18px;
+    visibility: visible;
+    font-size: 20px;
+    cursor: pointer;
 }
+
+.curtir .red  {
+    color: #ed4956;
+}
+
+.curtir .line  {
+    color: #000000;
+}
+
 .reacoes {
     width: 90px;
     display: flex;
