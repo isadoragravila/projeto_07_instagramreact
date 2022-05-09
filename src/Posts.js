@@ -54,10 +54,10 @@ function Post (props) {
 
 export default function Posts () {
     const items = [
-        {image: "images/mitchell.jpg", name: "mitchellpritchett", post: "images/post-mitchell.png", likedImage: "images/cam.png", likedUser: "camtucker", number: 352},
-        {image: "images/gloria.png", name: "gloriapritchett", post: "images/post-gloria.jpg", likedImage: "images/phil.png", likedUser: "phildunphy", number: 387},
-        {image: "images/haley.jpg", name: "haleydunphy", post: "images/post-haley.jpg", likedImage: "images/alex.jpg", likedUser: "alexdunphy", number: 395},
-        {image: "images/phil.png", name: "phildunphy", post: "images/post-phil.jpg", likedImage: "images/luke.jpg", likedUser: "lukedunphy", number: 236}
+        {image: "./images/mitchell.jpg", name: "mitchellpritchett", post: "./images/post-mitchell.png", likedImage: "./images/cam.png", likedUser: "camtucker", number: 352},
+        {image: "./images/gloria.png", name: "gloriapritchett", post: "./images/post-gloria.jpg", likedImage: "./images/phil.png", likedUser: "phildunphy", number: 387},
+        {image: "./images/haley.jpg", name: "haleydunphy", post: "./images/post-haley.jpg", likedImage: "./images/alex.jpg", likedUser: "alexdunphy", number: 395},
+        {image: "./images/phil.png", name: "phildunphy", post: "./images/post-phil.jpg", likedImage: "./images/luke.jpg", likedUser: "lukedunphy", number: 236}
     ];
 
     return (

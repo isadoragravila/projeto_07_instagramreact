@@ -15,12 +15,13 @@ function Suggestion (props) {
 
 export default function Suggestions () {
     const itens = [
-        {image: "images/dylan.jpg", name: "dylan", status: "Segue você"},
-        {image: "images/andy.png", name: "andybailey", status: "Segue você"},
-        {image: "images/pepper-saltzman.png", name: "peppersaltzman", status: "Segue você"},
-        {image: "images/gil-thorpe.png", name: "gilthorpe", status: "Segue você"},
-        {image: "images/sonia-ramirez.png", name: "soniaramirez", status: "Novo no instagram"},
+        {image: "./images/dylan.jpg", name: "dylan", status: "Segue você"},
+        {image: "./images/andy.png", name: "andybailey", status: "Segue você"},
+        {image: "./images/pepper-saltzman.png", name: "peppersaltzman", status: "Segue você"},
+        {image: "./images/gil-thorpe.png", name: "gilthorpe", status: "Segue você"},
+        {image: "./images/sonia-ramirez.png", name: "soniaramirez", status: "Novo no instagram"},
     ];
+    
     return (
         <div>
             <div class="sugestoes">

@@ -12,7 +12,7 @@ function Username (props) {
 
 export default function User () {
     const infosUsuario = {
-        image: "images/claire.jpg",
+        image: "./images/claire.jpg",
         usuario: "clairedunphy",
         nome: "Claire Dunphy"
     };

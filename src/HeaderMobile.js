@@ -5,7 +5,7 @@ export default function HeaderMobile () {
             <ion-icon name="logo-instagram"></ion-icon> 
         </div>
         <div class="logo-mobile">
-            <div><img src="images/logo.png" /></div>
+            <div><img src="./images/logo.png" /></div>
         </div>
         <div class="icone-mobile">
             <ion-icon name="paper-plane-outline"></ion-icon>
